@@ -1,21 +1,13 @@
-import HeroPage from "./Components/HeroPage";
-import Navbar from "./Components/Navbar";
-import InfoPage from "./Components/InfoPage";
-import TestimonialPage from "./Components/TestimonialPage";
-import AboutPage from "./Components/AboutPage";
-import AchivementPage from "./Components/AchivementPage";
-import Category from "./Components/Category";
 import Footer from "./Components/Footer";
+import HomePage from "./Components/HomePage";
+import Navbar from "./Components/Navbar";
+
 const App = () => {
   return (
-    <div className=" ">
+    <div className="text-red-300">
+      Hello coders
       <Navbar />
-      <HeroPage />
-      <InfoPage />
-      <Category />
-      <AboutPage />
-      <AchivementPage />
-      <TestimonialPage />
+      <HomePage />
       <Footer />
     </div>
   );
